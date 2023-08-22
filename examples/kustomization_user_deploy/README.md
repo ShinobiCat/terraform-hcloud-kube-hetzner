@@ -11,7 +11,7 @@ In the project folder, where the `kube.tf` is located.<br>
 Create a folder named `extra-manifests`<br>
 In it create a file named `kustomization.yaml.tpl`<br>
 and **your** manifest file(s), there names must be listed in the `kustomization.yaml.tpl` `recources` without the `.tpl`<br>
-e.g. `some-random-name.yaml.tpl`
+e.g. `some-random-name.yaml`
 
 ## Apply the kustomized configuration
 
